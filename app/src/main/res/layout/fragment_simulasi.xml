@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.simulasi.SimulasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFitur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvSimulasi"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:gravity="center" />
+
+        <View
+            android:id="@+id/horizontalLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="number"
+                android:padding="12dp"
+                android:maxLength="3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete2"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cpt"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtCPType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete3"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbp"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtRestingBP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="number"
+                android:padding="12dp"
+                android:maxLength="3"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chol"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtCholesterol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete5"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="number"
+                android:maxLength="3"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fbs"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtFasting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete6"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recg"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtRestingECG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete7"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mhr"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtMaxHR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete8"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="number"
+                android:maxLength="3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ea"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtExAngina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete9"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oldpeak"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtOldPeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete10"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="numberDecimal"
+                android:maxLength="3" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stslope"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edtSTSlope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/complete11"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="48dp"
+                android:hint="@string/answer"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_predict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/predict"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"/>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

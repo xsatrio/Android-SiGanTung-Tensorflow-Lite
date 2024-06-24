@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_simulasi"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_simulasi" />
+
+    <item
+        android:id="@+id/navigation_fitur"
+        android:icon="@drawable/baseline_interests_24"
+        android:title="@string/title_fitur" />
+
+    <item
+        android:id="@+id/navigation_dataset"
+        android:icon="@drawable/baseline_table_chart_24"
+        android:title="@string/title_dataset" />
+
+    <item
+        android:id="@+id/navigation_model"
+        android:icon="@drawable/baseline_precision_manufacturing_24"
+        android:title="@string/title_model" />
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/title_info" />
+
+</menu>

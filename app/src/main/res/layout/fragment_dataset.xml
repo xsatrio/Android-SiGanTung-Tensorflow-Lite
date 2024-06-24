@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFitur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvDataset"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:gravity="center" />
+
+        <View
+            android:id="@+id/horizontalLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="16dp"
+                        android:stretchColumns="*">
+                    </TableLayout>
+
+                </HorizontalScrollView>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:layout_gravity="center"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/horizontalLineTable"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/dTabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/dTabel"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dLinkds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/dLinkds"
+                    android:autoLink="web"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dDimensi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/dDimensi"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/dDataset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/dDataset"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

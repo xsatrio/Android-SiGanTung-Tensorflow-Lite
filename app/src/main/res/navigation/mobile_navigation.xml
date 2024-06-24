@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_simulasi">
+
+    <fragment
+        android:id="@+id/navigation_simulasi"
+        android:name="com.satriomp.sigantung.ui.simulasi.SimulasiFragment"
+        android:label="@string/title_simulasi"
+        tools:layout="@layout/fragment_simulasi" />
+
+    <fragment
+        android:id="@+id/navigation_fitur"
+        android:name="com.satriomp.sigantung.ui.fitur.FiturFragment"
+        android:label="@string/title_fitur"
+        tools:layout="@layout/fragment_fitur" />
+
+    <fragment
+        android:id="@+id/navigation_dataset"
+        android:name="com.satriomp.sigantung.ui.dataset.DatasetFragment"
+        android:label="@string/title_dataset"
+        tools:layout="@layout/fragment_dataset" />
+
+    <fragment
+        android:id="@+id/navigation_model"
+        android:name="com.satriomp.sigantung.ui.model.ModelFragment"
+        android:label="@string/title_model"
+        tools:layout="@layout/fragment_dataset" />
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.satriomp.sigantung.ui.profil.ProfilFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_dataset" />
+</navigation>

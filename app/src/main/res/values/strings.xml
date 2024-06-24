@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">SiGaNtung</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="answer">jawaban</string>
+
+    <string name="predict">Prediksi</string>
+    <string name="reset">Reset Form</string>
+    <string name="title_simulasi">Simulasi</string>
+    <string name="title_fitur">Fitur</string>
+    <string name="title_dataset">Dataset</string>
+    <string name="title_model">Model</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_info">Info</string>
+    <string name="myname">Satrio Mukti Prayoga</string>
+    <string name="mynim">NIM : 211351137</string>
+    <string name="myemail">Email : satriocahyo93@gmail.com</string>
+    <string name="desc_profil"><![CDATA[Aplikasi ini dibuat oleh mahasiswa S1 Teknik Informatika dari Sekolah Tinggi Teknik Wastukancana. \n\nUntuk melakukan simulasi, silahkan pilih menu \”simulasi\” (ikon rumah), lalu isikan semua inputan yang ada, dan pilih tombol prediksi. Gunakan menu \”fitur\”, untuk mengetahui detail dan penjelasan dari semua inputan yang ada pada menu \“simulasi\”.]]></string>
+    <string name="desc_profil_warn"><![CDATA[Aplikasi ini hanya untuk simulasi atau referensi saja, dan tidak bisa menggantikan peran dokter sepenuhnya. \n\nJika ingin mengetahui tentang kesehatan anda lebih lanjut, silahkan hubungi dan konsultasikan dengan dokter yang berkaitan dengan penyakit jantung.]]></string>
+    <string name="tvFitur">Fitur Yang Digunakan</string>
+    <string name="tvSimulasi">Simulasi</string>
+    <string name="tvModel">Modeling dan Visualisasi</string>
+    <string name="dModel"><![CDATA[Aplikasi ini menggunakan dataset yang bersumber dari Kaggle, untuk melihat dataset lengkap, silahkan buka menu \"Dataset\" . Untuk menampilkan hasil prediksi dari inputan pengguna, dataset harus di latih terlebih dahulu, menggunakan model jaringan saraf tiruan(Neural Network). \n\nModel dilatih menggunakan 4 layer, layer yang pertama yaitu input layer dengan ukuran output 16neuron menggunakan aktivasi ReLU, lalu ada 2 hidden layer dengan ukuran output 8neuron menggunakan aktivasi ReLU, dan output layer dengan ukuran 1neuron menggunakan aktivasi sigmoid.]]></string>
+    <string name="model">Model</string>
+    <string name="dVisualisasi"><![CDATA[Model ini menggunakan optimizer Adam untuk mempercepat pelatihan dan fungsi binary_crossentropy untuk mengukur kesalahan klasifikasi. Model ini dievaluasi berdasarkan tingkat akurasi, yaitu seberapa sering prediksi model benar. \n\nBerikut skema dari model jaringan saraf tiruan(Neural Network) yang digunakan: ]]></string>
+    <string name="tvDataset">Dataset</string>
+    <string name="dDimensi">Dimensi Dataset : \nJumlah Baris: 918 \nJumlah Kolom: 12</string>
+    <string name="dDataset">Dataset ini terdiri dari 5 dataset penyakit jantung yang dikombinasikan menjadi 11 fitur, sehingga menjadi dataset penyakit jantung terbesar yang tersedia untuk tujuan penelitian. \n\n5 dataset yang digunakan untuk penggabungannya adalah: \nCleveland: 303 observasi. \nHungarian: 294 observasi. \nSwitzerland: 123 observasi. \nLong Beach VA: 200 observasi. \nStalog (Heart) Data Set: 270 observasi. \n\nTotal: 1190 observasi (Setelah menghapus data duplikat, dataset akhir terdiri dari 918 observasi.)</string>
+    <string name="dTabel">Tabel diatas berisi 20 data dari dataset yang digunakan, untuk melihat isi data dari dataset sepenuhnya, bisa mengakses link dibawah ini :</string>
+    <string name="dLinkds">https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction</string>
+    <string name="splash">splash</string>
+    <string name="app_desc">Aplikasi Prediksi Gagal Jantung</string>
+    <string name="tvProfil">Informasi Aplikasi</string>
+    <string name="mygithub">Github : github.com/xsatrio/sigantung</string>
+    <string name="mulai">Mulai Prediksi</string>
+
+    <!--List untuk dropdown-->
+    <string-array name="gender_array">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="chest_pain_type_array">
+        <item>Typical Angina</item>
+        <item>Non-Anginal Pain</item>
+        <item>Asymptomatic</item>
+        <item>Typical Angina</item>
+    </string-array>
+    <string-array name="resting_ecg_array">
+        <item>Normal</item>
+        <item>Kelainan ST-T</item>
+        <item>Kriteria LVH Estes</item>
+    </string-array>
+    <string-array name="exercise_angina_array">
+        <item>Tidak ada</item>
+        <item>Iya</item>
+    </string-array>
+    <string-array name="fasting_bs">
+        <item>Tidak</item>
+        <item>Iya</item>
+    </string-array>
+    <string-array name="st_slope_array">
+        <item>Condong keatas</item>
+        <item>Datar</item>
+        <item>Sedikit Landai</item>
+    </string-array>
+
+    <!--Pertanyaan untuk simulasi-->
+    <string name="age">1. Usia? (Age)</string>
+    <string name="gender">2. Jenis kelamin? (Sex)</string>
+    <string name="cpt">3. Jenis nyeri dada yang dialami? (ChestPainType)</string>
+    <string name="rbp">4. Tekanan darah saat istirahat (mm Hg)? (RestingBP)</string>
+    <string name="chol">5. Kadar kolesterol dalam darah (mg/dl)? (Cholesterol)</string>
+    <string name="fbs">6. Apakah kadar gula darah puasa diatas 120mg/dl ? (FastingBS)</string>
+    <string name="recg">7. Hasil elektrokardiogram saat istirahat? (RestingECG)</string>
+    <string name="mhr">8. Berapa denyut jantung maksimum yang dicapai selama tes? (MaxHR)</string>
+    <string name="ea">9. Angina saat berlatih (nyeri dada karena kurangnya darah ke jantung)? (ExerciseAngina)</string>
+    <string name="oldpeak">10. Depresi ST yang diakibatkan oleh latihan relative terhadap saat istirahat? (0.0 – 6.2) (Oldpeak)</string>
+    <string name="stslope">11. Kemiringan segmen latihan puncak ST? (ST_Slope)</string>
+
+
+    <!--Deskripsi Fitur-->
+    <string name="fAge">1. Age [int64] :</string>
+    <string name="dAge">Usia dalam Tahun.</string>
+
+    <string name="fSex">2. Sex [object] {M , F} : </string>
+    <string name="dSex">Jenis kelamin. M untuk laki-laki, F untuk Perempuan.</string>
+
+    <string name="fCpt">3. ChestPainType [object] {ATA , NAP , ASY , TA} : </string>
+    <string name="dCpt">
+        Jenis sakit di dada :
+        \nATA = Atypical Angina / Angina Atipikal.
+        \nNAP = Non-Anginal Pain / Non-Anginal Pain.
+        \nASY = Asymptomatic / Asimtomatik.
+        \nTA = Typical Angina / Angina yang khas.
+    </string>
+
+    <string name="fRbp">4. RestingBP [int64] : </string>
+    <string name="dRbp">Tekanan darah pada saat beristirahat, dalam satuan mm Hg.</string>
+
+    <string name="fChol">5. Cholesterol [int64] : </string>
+    <string name="dChol">Kadar kolesterol di dalam darah, dalam satuan mg/dl.</string>
+
+    <string name="fFbs">6. FastingBS [int64] {0 , 1} : </string>
+    <string name="dFbs">
+        Gula darah saat puasa/istirahat.
+        \n0 = Gula darah kurang dari 120 mg/dl.
+        \n1 = gula darah lebih dari 120 mg/dl.
+    </string>
+
+    <string name="fRestingECG">7. RestingECG [object] {Normal , ST , LVH} : </string>
+    <string name="dRestingECG">
+        Hasil tes elektrokardiografi yang menggambarkan aktivitas elektrik jantung.
+        \n\nNormal = Hasil elektrokardiografi saat istirahat Normal.
+        \n\nST = Memiliki gelombang kelainan ST–T (T Inversi gelombang dan/atau elevasi ST atau depresi dari > 0,05 mv)
+        \n\nLVH = Menunjukkan kemungkinan atau pasti hipertrofi ventrikel kiri dengan criteria estes.
+    </string>
+
+    <string name="fMhr">8. MaxHR [int64] : </string>
+    <string name="dMhr">Detak jantung maksimum. </string>
+
+    <string name="fEa">9. ExerciseAngina [object] {Y , N} : </string>
+    <string name="dEa">
+        Latihan diinduksi angina (jenis nyeri di dada yang disebabkan oleh berkurangnya aliran darah ke otot jantung).
+        \nY = ada.
+        \nN = tidak ada.
+    </string>
+
+    <string name="fOldpeak">10.Oldpeak [float64] : </string>
+    <string name="dOldpeak">Perubahan pada segmen ST pada hasil elektrokardiografi akibat latihan fisik, relatif terhadap keadaan saat beristirahat.</string>
+
+    <string name="fSTSlope">11. ST_Slope [object] {Up , Flat , Down} : </string>
+    <string name="dSTSlope">
+        Bentuk atau kemiringan segmen ST pada puncak latihan fisik.
+        \nUp = Condong ke atas.
+        \nFlat = Datar.
+        \nDown = Sedikit Landai.
+    </string>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+<!--<style name="Theme.SiGaNtung" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+    <style name="Theme.SiGaNtung" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#B0FC6C8C</item>
+        <item name="colorPrimaryVariant">#121212</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">#848484</item>
+        <item name="colorSecondaryVariant">#b7b7b9</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
