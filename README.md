@@ -4,7 +4,7 @@ Repositori ini dibuat untuk menyimpan project dari aplikasi SiGaNtung.
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/xsatrio/submission-android-developer-dicoding-path-3/main/Preview/Screenshot_2024-04-25-14-00-01-356_com.dicoding.githubuser-edit.png"
+<img src="[https://raw.githubusercontent.com/xsatrio/submission-android-developer-dicoding-path-3/main/Preview/Screenshot_2024-04-25-14-00-01-356_com.dicoding.githubuser-edit.png](https://raw.githubusercontent.com/xsatrio/sigantung/main/shared_files/preview/Screenshot_2024-06-24-14-47-06-097_com.satriomp.sigantung-edit.png)"
      alt="Splash Screen"
      style="float: left; margin-right: 10px;"
      width="200" />
