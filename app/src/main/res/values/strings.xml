@@ -34,6 +34,8 @@
     <string name="tvProfil">Informasi Aplikasi</string>
     <string name="mygithub">Github : github.com/xsatrio/sigantung</string>
     <string name="mulai">Mulai Prediksi</string>
+    <string name="DPrivacy">Privacy Policy :</string>
+    <string name="LPrivacy">https://sites.google.com/view/sigantungapp/</string>
 
     <!--List untuk dropdown-->
     <string-array name="gender_array">
