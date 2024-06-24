@@ -30,6 +30,6 @@ Repositori ini dibuat untuk menyimpan project dari aplikasi SiGaNtung.
      width="200" />
 
 ## Referensi
-[x] Dataset : [https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction]
-[x] Jurnal Paper : [https://simdos.unud.ac.id/uploads/file_penelitian_1_dir/b0bfb0f3b2bb8e8fbf34cd1d4f45b7f4.pdf]
+- Dataset : [https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction]
+- Jurnal Paper : [https://simdos.unud.ac.id/uploads/file_penelitian_1_dir/b0bfb0f3b2bb8e8fbf34cd1d4f45b7f4.pdf]
      
