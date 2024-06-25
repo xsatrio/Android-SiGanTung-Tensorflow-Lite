@@ -1,6 +1,7 @@
 # SiGaNtung (Prediksi Gagal Jantung)
 
 Repositori ini dibuat untuk menyimpan project dari aplikasi SiGaNtung.
+APK Download : [SiGaNtung.apk](https://github.com/xsatrio/sigantung/raw/main/shared_files/app-debug.apk) 
 
 ## Screenshot
 
