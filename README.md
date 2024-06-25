@@ -1,7 +1,8 @@
 # SiGaNtung (Prediksi Gagal Jantung)
 
-Repositori ini dibuat untuk menyimpan project dari aplikasi SiGaNtung.
-APK Download : [SiGaNtung.apk](https://github.com/xsatrio/sigantung/raw/main/shared_files/app-debug.apk) 
+Repositori ini dibuat untuk menyimpan project dari aplikasi SiGaNtung. 
+- APK Download : [SiGaNtung.apk](https://github.com/xsatrio/sigantung/raw/main/shared_files/app-debug.apk)
+- Dataset : [Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
 ## Screenshot
 
@@ -31,6 +32,5 @@ APK Download : [SiGaNtung.apk](https://github.com/xsatrio/sigantung/raw/main/sha
      width="200" />
 
 ## Referensi
-- Dataset : [https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction]
 - Jurnal Paper : [https://simdos.unud.ac.id/uploads/file_penelitian_1_dir/b0bfb0f3b2bb8e8fbf34cd1d4f45b7f4.pdf]
      
